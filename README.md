@@ -59,7 +59,7 @@ Should modify each file accordingly. See more details in appendix.
 Yolov3 pretrained weights:<br>
 https://pjreddie.com/media/files/darknet53.conv.74<br>
 
-Yolov4 pretrained weights: 
+Yolov4 pretrained weights:<br>
 https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.weights<br>
 
 
