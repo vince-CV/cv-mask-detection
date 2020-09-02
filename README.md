@@ -56,8 +56,11 @@ Should modify each file accordingly. See more details in appendix.
 
 
 ### 7. Prepare weights for Convolutional backbone ###
-Yolo v3 Original File : https://pjreddie.com/media/files/darknet53.conv.74<br>
-Yolo v4 Original File : https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.weights
+Yolov3 pretrained weights:
+https://pjreddie.com/media/files/darknet53.conv.74<br>
+
+Yolov4 pretrained weights: 
+https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.weights<br>
 
 
 ### 8. Start Training ###
