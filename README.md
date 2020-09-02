@@ -1,6 +1,9 @@
 # cv-mask-detection
 Training custom object detector using yolo v3 and v4, along with inference and deployment.
 
+This project will using Kaggle image set: Face Mask Dataset (YOLO format), for training object detector.
+<https://www.kaggle.com/aditya276/face-mask-dataset-yolo-format>
+
 ### 1. Change Runtime Type ###
 Runtime -> Change runtime type -> Select hardware Accelerator as GPU.
 
