@@ -32,5 +32,6 @@ darknet/LICENSE
 darknet/Makefile
 
 data/
+data_rp1/
 results/
 
