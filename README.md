@@ -10,7 +10,7 @@ Runtime -> Change runtime type -> Select hardware Accelerator as GPU.
 from google.colab import drive
 drive.mount('/content/drive')
 ```
-Enter into the folder:
+Enter into the folder:<br>
 `%cd /content/drive/My\ Drive/Mask\ Detector`
 
 
@@ -23,10 +23,13 @@ Enter into the folder:
 2. Build with CUDA enabled
 3. Build with cuDNN enabled.
 
-Enter into darknet folder:
+Enter into darknet folder:<br>
 `%cd darknet`
+
 `!sed -i 's/OPENCV=0/OPENCV=1/' Makefile`
+
 `!sed -i 's/GPU=0/GPU=1/' Makefile`
+
 `!sed -i 's/CUDNN=0/CUDNN=1/' Makefile`
 
 `print("Building. . . It might take 2-3 minutes")`
@@ -50,7 +53,7 @@ Should modify each file accordingly. See more details in appendix.
 
 
 ### 7. Prepare weights for Convolutional backbone ###
-Yolo v3 Original File : https://pjreddie.com/media/files/darknet53.conv.74
+Yolo v3 Original File : https://pjreddie.com/media/files/darknet53.conv.74<br>
 Yolo v4 Original File : https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.weights
 
 
@@ -58,10 +61,10 @@ Yolo v4 Original File : https://github.com/AlexeyAB/darknet/releases/download/da
 For starting training using darknet, we need to execute the following command. Here we are specifying the:
 1. path to the setup file,
 2. path to config file,
-3. path to convolutional weights file
+3. path to convolutional weights file.<br>
 `!./darknet detector train ../configuration_v3/setup.data ../configuration_v3/train.cfg ./backup/darknet53.conv.74 -dont_show -map 2> train_log.txt`
 
 
 ## Experiments & Results
-![Image](/img/in-post/200830 ObjectDetectionYOLO/chart.png)
-![Image](/img/in-post/200830 ObjectDetectionYOLO/chart.jpg)
+![Image](/chart.png)
+![Image](/demo.png)
