@@ -56,7 +56,7 @@ Should modify each file accordingly. See more details in appendix.
 
 
 ### 7. Prepare weights for Convolutional backbone ###
-Yolov3 pretrained weights:
+Yolov3 pretrained weights:<br>
 https://pjreddie.com/media/files/darknet53.conv.74<br>
 
 Yolov4 pretrained weights: 
